@@ -33,13 +33,7 @@ def delete_word(d):
         print("NOT FOUND")
 def alphabetical_order(d):
     print(sorted(d))
-'''def same_meaning(d):
-    m=input("Enter the word you want to search:")
-    if m in d.values():
-       print("FOUND")
-       print(d.get(m))
-    else:
-        print("NOT FOUND")'''
+
 def dictionary_content(d):
     print(d.items())
 def search_word(d):
