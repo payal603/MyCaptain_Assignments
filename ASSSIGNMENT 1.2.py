@@ -2,7 +2,7 @@
 """
 Created on Sun Oct 17 01:32:55 2021
 
-@author: dell
+@author: Payal Gaikwad
 """
 '''
 Q1.IMPLEMENT STRING AND LIST METHODS
