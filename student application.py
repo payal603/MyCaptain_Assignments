@@ -1,4 +1,5 @@
-# -*- coding: utf-8 -*-
+
+             
 """
 Created on Thu Oct 28 22:40:58 2021
 
@@ -52,19 +53,23 @@ ls =[]
 obj = Student('', 0, 0, 0)
   
 print("\nOperations used, ")
-print("\n1.Accept Student details\n2.Display Student Details\n" /
-      / "3.Search Details of a Student\n4.Delete Details of Student" /
-      / "\n5.Update Student Details\n6.Exit")
+print("\n1.Accept Student details\n2.Display Student Details\n 3.Search Details of a Student\n4.Delete Details of Student" 
+       "\n5.Update Student Details\n6.Exit")
   
-# ch = int(input("Enter choice:"))
-# if(ch == 1):
-obj.accept("A", 1, 100, 100)
-obj.accept("B", 2, 90, 90)
-obj.accept("C", 3, 80, 80)
+#ch = int(input("Enter choice:"))
+
+#if(ch == 1):
+obj.accept("payal", 1, 78, 100)
+obj.accept("faisal", 2, 90, 90)
+obj.accept("sundar", 3, 80, 80)
+    
+    
+
          
-# elif(ch == 2):
+#elif(ch == 2):
 print("\n")
 print("\nList of Students\n")
+
 for i in range(ls.__len__()):    
     obj.display(ls[i])
              
