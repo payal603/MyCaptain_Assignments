@@ -1,4 +1,5 @@
 
+#1.Write a C++ code to find the size of the datatypes int,float,double and char.
 #include <iostream>
 using namespace std;
 
